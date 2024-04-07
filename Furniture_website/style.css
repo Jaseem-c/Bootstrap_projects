@@ -1,0 +1,98 @@
+*{margin: 0;
+    padding: 0;}
+    
+    :root{ --brown:rgb(77, 11, 11)}
+    
+    #logo{width: 100%;
+    height: 100px;}
+    
+    .navbar{background-color: rgb(194, 183, 183);}
+    
+    .nav-item i{color: rgba(145, 140, 140, 0.722);}
+    
+    .nav-item{font-size: 20px;}
+    
+    #contactbtn{background-color: var(--brown);
+    color: white;}
+    
+    #contactbtn:hover{background-color: white;
+    color: var(--brown);
+    border-color: var(--brown);}
+    
+    .welcome{background-image: url('./Media/table1.png');
+    height: 120vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    }
+    
+    .welcome h2{font-weight: 400;}
+    
+    .welcome{padding-top: 22%;
+    padding-left: 5%;
+    color: white;}
+    
+    .welcome h1{font-size: 105px ;}
+    
+    @media(max-width:600px) {
+        .welcome h1{font-size: 50px;}
+        .nav-item i{display: none;}
+    }
+    
+    
+    .work{background-image: url('https://img.freepik.com/free-photo/contemporary-living-room-interior-design-with-luxury-armchair_53876-126767.jpg');
+    height: 100%; width: 100%; 
+    background-size: cover;
+    background-position: center; padding-top: 8%;
+    }
+    
+    #secrow{width: 936; height: 719;}
+    
+    
+    
+    .viewbtn{border-color: var(--brown);
+    color: var(--brown);}
+    
+    .viewbtn:hover{background-color: var(--brown);
+    color: white;}
+    
+    
+    .imgDiv{width: 100%;
+    height: 490px;
+    border: 5px solid var(--brown);
+    padding-top: 4%;
+    padding-left: 4%;}
+    
+    
+    .hr{width: 20%;
+    height: 5px;
+    background-color: var(--brown);}
+    
+    .FF{color: var(--brown);}
+    
+    #viewmorebtn{border-color: var(--brown);
+        color: var(--brown);}
+        
+    #viewmorebtn:hover{background-color: var(--brown);
+        color: white;}
+    
+    #gallery{padding-top: 7% ;}
+    
+    #gallery h1{padding-bottom: 0%; font-size: 46px;
+    font-weight: 600;}
+    
+    .imag1{position: relative;}
+    
+    .rosewood{
+        width: 55%;
+        padding: 2%;
+        background-color: black;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        bottom: 0px;
+    }
+    
+    .rosewood h5{font-size: 27px;}
