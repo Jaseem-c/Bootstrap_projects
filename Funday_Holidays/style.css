@@ -1,0 +1,226 @@
+*
+{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    overflow-x: hidden;
+}
+#Header{
+    position: relative;
+}
+#carouselExampleSlidesOnly
+{
+    position: absolute;
+    width: 100vw;
+}
+nav{
+    position: absolute;
+    z-index: 1;
+    top: 5px; 
+   
+}
+nav .container-fluid
+{
+    margin: 0px 150px;
+    border-bottom: 1px solid gray;
+   
+}
+#logo
+{
+    height: 50px;
+}
+.nav-item,.dropdown-menu a
+{
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+}
+
+.dropdown-menu a:hover
+{
+    color: white;
+    background-color: rgb(7, 77, 101);
+    border-radius: 5px;
+}
+.nav-link:hover
+{
+    border-bottom: 1px solid red;
+}
+.headercontents
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    z-index: 1;
+    top: 200px;
+    left: 20%;
+    right: 20%;
+}
+.headercontents p{
+    color: white;
+    letter-spacing: 6px;
+    font-size: 13px;
+}
+.headercontents h1{
+    font-size: 65px;
+    font-weight: bold;
+    font-family: "Poppins", sans-serif;
+    color: white;
+
+}
+.headercontents span{
+    color: transparent;
+    -webkit-text-stroke: 2px white
+}
+@media(max-width:600px) {
+    .headercontents h1{font-size: 50px;}
+    .nav-item i{display: none;}
+}
+/* Popular */
+#popular
+{
+    background-color: white;
+    margin-top: 670px;
+    padding: 20px 70px;
+
+}
+.headanddetails
+{
+    display: flex;
+    justify-content: space-between;
+}
+.headanddetails h1{
+    font-family: "Poppins", sans-serif;
+    font-size: 25px;
+    font-weight: bold; 
+}
+.headanddetails button
+{
+    border-color: brown;
+}
+.headanddetails button:hover{
+    color: white;
+    background-color: black;
+}
+.cards
+{
+    background-color:#ededed;
+    transition: transform .3s; 
+}
+.img
+{
+    position: relative;
+}
+
+.imgdiv
+{
+    width: 200px;
+    background-color:#ededed;
+    display: flex;
+    justify-content:space-between;
+    padding: 2px 5px;
+    position: absolute;
+    bottom: 0px;
+    border-top-right-radius: 5px;
+}
+.detailsicon
+{
+    border-top: 1px solid rgb(208, 208, 208);
+    border-bottom: 1px solid  rgb(208, 208, 208);;
+    display: flex;
+    justify-content: space-between;
+}
+.detailsicon h6{
+    font-size: 12px;
+    font-weight: bold;
+}
+.detailsicon div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 8px;
+}
+.imgdiv h6{
+    font-size: 14px;
+    font-weight: 400;
+}
+.stariconset i{
+    color: #dab800;
+}
+.carddetails h5
+{
+font-weight: bold;
+font-size: 18px;
+}
+.cards:hover{
+    background-color: white;
+    transform: scale(1.03);
+    box-shadow: 18px 30px 11px rgba(0, 0, 0, 0.2); 
+}
+@media(max-width:600px) {
+    .cards{margin-top: 30px;}
+}
+/* international */
+#international
+{
+    background-color: white;
+    padding: 10px 70px;
+
+}
+.package_prize
+{
+    display: flex;
+    justify-content: space-between;
+}
+.price h5{
+    color: blue;
+}
+#kerala
+{
+    padding: 20px 70px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.kerala{
+    position: relative;
+}
+.details{
+    position: absolute;
+    bottom: 0;
+    padding:  0px 35px;
+    width: 100%;
+}
+.details .hr{
+    width: 60px;
+    height: 2px;
+    background-color: rgb(180, 177, 177);
+}
+@media(max-width:600px) {
+    .card{margin-top: 30px;}
+}
+/* backimg */
+.backimg{
+    width: 100vw;
+    height:100vh;
+    background-image: url(https://maldivesfinest.com/wp-content/uploads/2017/02/velaa-banner2.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.backimg p{
+    text-align: center;
+
+}
+@media(max-width:600px) {
+    .kerala{margin-top: 30px;}
+    .backimg{padding: 40px;}
+    body{overflow-x: hidden;}
+}
+
+
